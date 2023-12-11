@@ -4,14 +4,14 @@ public class Main {
 
     public static class A{
         public String haris(){
-            return "invoke method from class a ";
+            return "Invoking method from class A ";
         }
 
     }
     public static class B extends A{
-
+          @Override
         public String haris() {
-            return "method is overridingin extended class b";
+            return "Method is overridden in Extendend class B";
         }
     }
     public static void main (String args[]){
